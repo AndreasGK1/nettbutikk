@@ -1,0 +1,59 @@
+.tittel {
+  color: black;
+  background-color: red;
+  border-bottom: 10px solid red;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+.username {
+  text-align: center;
+  margin-right: 67px;
+  /* display: block; */
+}
+
+.password {
+  text-align: center;
+  /* display: block;  */
+}
+
+.login {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: red;
+  border-bottom: 10px solid red;
+  border-top: 10px solid red;
+}
+
+.loginbutton {
+  display: block;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center; */
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.registrer {
+  display: block;
+  margin-right: auto;
+  margin-left: -40px;
+}

@@ -1,0 +1,80 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frukt</title>
+    <link rel="stylesheet" href="../CSS/fruktstyle.css" />
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyCY5XWczaAfzNFcUWS2weEP5atzmkhLA_g",
+        authDomain: "nett-2d68c.firebaseapp.com",
+        projectId: "nett-2d68c",
+        storageBucket: "nett-2d68c.appspot.com",
+        messagingSenderId: "860034619576",
+        appId: "1:860034619576:web:41cf1b9c9e914859b43c4d",
+      };
+
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.firestore();
+    </script>
+    <script rel src="../JavaScript/database.js"></script>
+  </head>
+  <body>
+    <div class="tittel">
+      <h1>FakeMat AS</h1>
+      <h2>Frukt</h2>
+      <img class="F" src="../img/frukt.jpg" />
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">Tilbake</a></li>
+        <li><a href="../html/handlekurv.html">Handlekurv</a></li>
+      </ul>
+    </nav>
+    <p class="beskrivelse">
+      Frukt i dagligtale sikter vanligvis til en saft- og kjøttrik plantedel som
+      kan spises -Wikipedia
+    </p>
+    <div class="searchContainer">
+      <input type="search" class="searchbar" />
+      <input class="searchicon" type="image" src="../img/icon.png" />
+    </div>
+
+    <h3>Varer</h3>
+  <!--Banan-->
+    <div class="frukt">
+      <p class="bananinfo"></p>
+      <a href="../html2/frukt/banan.html"
+        ><img class="banan" src="../img/banan.jpg"
+      /></a>
+      <button class="banankjøp">
+        <a class="bananpris" href="placeholder.html"></a>
+      </button>
+    </div>
+<!--eple-->
+    <div class="eple">
+      <p class="epleinfo"></p>
+      <a href="../html2/frukt/eple.html"
+        ><img class="epleimg" src="../img/eple.jpg"
+      /></a>
+      <button class="eplekjøp">
+        <a class="eplepris" href="placeholder.html"></a>
+      </button>
+    </div>
+<!--jordbær-->
+    <div class="jordbær">
+      <p class="jordbærinfo"></p>
+      <a href="../html2/frukt/jordbaer.html"
+        ><img class="jordbærimg" src="../img/jordbaer.jpeg"
+      /></a>
+      <button class="jordbærkjøp" type="submit" formaction="handlekurv.html">
+        <a class="jordbærpris" href="placeholder.html"></a>
+      </button>
+    </div>
+  </body>
+</html>

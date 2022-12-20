@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrer</title>
+    <link rel="icon" type="image/x-icon" href="../img/F.png">
+    <link rel="stylesheet" href="../CSS/registerstyle.css">
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyCY5XWczaAfzNFcUWS2weEP5atzmkhLA_g",
+        authDomain: "nett-2d68c.firebaseapp.com",
+        projectId: "nett-2d68c",
+        storageBucket: "nett-2d68c.appspot.com",
+        messagingSenderId: "860034619576",
+        appId: "1:860034619576:web:41cf1b9c9e914859b43c4d",
+      };
+
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.firestore();
+    </script>
+
+    <script src="/JavaScript/index.js" defer></script>
+</head>
+<body>
+    
+
+
+    <nav>
+        <ul>
+   <li>
+   
+   <a href="logginn.html">Tilbake</a>
+   
+   </li>
+
+        </ul>
+
+    </nav>
+
+    <div class="tittel">
+        <h1>Registrer deg</h1>
+    </div>
+
+
+   
+
+
+<div class="login">
+<div class="username">
+<a>Brukernavn</a> <input id="username" type="text">
+</div>
+
+<div class="Email">
+    <a>Email addresse</a> <input id="email" type="text">
+    </div>
+
+ <div class="password">
+<a>Passord</a><input id="password1" type="password">
+</div>
+
+<div class="password2">
+    <a>Gjenta passord</a><input id="password3" type="password">
+    </div>
+
+<button  onclick="passordChecker()" class="loginbutton" >Registrer</button>
+
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+.tittel {
+  color: black;
+  background-color: red;
+  border-bottom: 10px solid red;
+  text-align: center;
+}
+
+body {
+  background: white;
+  margin: 0;
+}
+
+.beskrivelse {
+  text-align: center;
+}
+
+.searchicon {
+  height: 50px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.searchbar {
+  display: inline;
+  width: 500px;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.F {
+  height: 100px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.frukt {
+  background-color: red;
+
+  width: 300px;
+  text-align: center;
+  margin-left: 50px;
+  height: 230px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.banan {
+  height: 150px;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.epleimg {
+  height: 150px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  padding-left: 10px;
+}
+
+.eple {
+  background-color: red;
+
+  width: 300px;
+  text-align: center;
+  margin-left: 50px;
+  height: 230px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.jordbærimg {
+  height: 150px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  padding-left: 10px;
+}
+
+.jordbær {
+  background-color: red;
+
+  width: 300px;
+  text-align: center;
+  margin-left: 50px;
+  height: 230px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 1;
+}
+
+.banankjøp {
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 115px;
+  margin-top: 5px;
+}
+
+.eplekjøp {
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 110px;
+  margin-top: 5px;
+}
+
+.jordbærkjøp {
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 110px;
+  margin-top: 5px;
+}

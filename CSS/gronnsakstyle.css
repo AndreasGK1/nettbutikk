@@ -1,0 +1,110 @@
+.tittel {
+  color: black;
+  background-color: red;
+  border-bottom: 10px solid red;
+  text-align: center;
+}
+
+body {
+  background: white;
+  margin: 0;
+}
+
+.beskrivelse {
+  text-align: center;
+}
+
+.searchicon {
+  height: 50px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.searchbar {
+  display: inline;
+  width: 500px;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.F {
+  height: 100px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.grønnsaker {
+  background-color: red;
+
+  width: 300px;
+  text-align: center;
+  margin-left: 50px;
+  height: 230px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.potet {
+  height: 150px;
+  padding-top: -100px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.gressimg, .tomatimg {
+  height: 150px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  padding-left: 10px;
+}
+
+.gress, .tomat {
+  background-color: red;
+  width: 300px;
+  text-align: center;
+  margin-left: 50px;
+  height: 230px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+
+.tomatkjøp, .gresskjøp, .potetkjøp {
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}

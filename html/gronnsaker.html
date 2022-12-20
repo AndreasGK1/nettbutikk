@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grønnsaker</title>
+    <link rel="stylesheet" href="../CSS/gronnsakstyle.css" />
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyCY5XWczaAfzNFcUWS2weEP5atzmkhLA_g",
+        authDomain: "nett-2d68c.firebaseapp.com",
+        projectId: "nett-2d68c",
+        storageBucket: "nett-2d68c.appspot.com",
+        messagingSenderId: "860034619576",
+        appId: "1:860034619576:web:41cf1b9c9e914859b43c4d",
+      };
+
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.firestore();
+    </script>
+    <script rel src="../JavaScript/database.js"></script>
+  </head>
+  <body>
+    <div class="tittel">
+      <h1>FakeMat AS</h1>
+      <h2>Grønnsaker</h2>
+      <img class="F" src="../img/gronnsaker.jpg" />
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">Tilbake</a></li>
+        <li><a href="../html/handlekurv.html">Handlekurv</a></li>
+      </ul>
+    </nav>
+    <p class="beskrivelse">
+      Frukt i dagligtale sikter vanligvis til en saft- og kjøttrik plantedel som
+      kan spises -Wikipedia
+    </p>
+    <div class="searchContainer">
+      <input type="search" class="searchbar" />
+      <input class="searchicon" type="image" src="../img/icon.png" />
+    </div>
+
+    <h3>Varer</h3>
+<!--potet-->
+    <div class="grønnsaker">
+      <p class="potetinfo"></p>
+      <a href="../html2/gronnsaker/potet.html"
+        ><img class="potet" src="../img/potet.jpg"
+      /></a>
+      <button class="potetkjøp">
+        <a class="potetpris" href="placeholder.html"></a>
+      </button>
+    </div>
+<!--gress-->
+    <div class="gress">
+      <p class="gressinfo"></p>
+      <a href="/html2/gronnsaker/gress.html">
+        <img class="gressimg" src="../img/gress.jpeg">
+      </a>
+      <button class="gresskjøp">
+        <a class="gresspris" href="placeholder.html"></a>
+      </button>
+    </div>
+    </div>
+<!--tomat-->
+    <div class="tomat">
+      <p class="tomatinfo"></p>
+      <a href="/html2/gronnsaker/tomat.html"
+        ><img class="tomatimg" src="../img/tomat.jpeg"
+      /></a>
+      <button class="tomatkjøp">
+        <a class="tomatpris" href="placeholder.html"></a>
+      </button>
+    </div>
+  </body>
+</html>

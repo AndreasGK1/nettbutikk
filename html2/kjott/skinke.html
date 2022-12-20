@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Skinke</title>
+    <link rel="icon" type="image/x-icon" href="../img/F.png"/>
+    <link rel="stylesheet" href="/CSS2/Kjott/skinkestyle.css"/>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyCY5XWczaAfzNFcUWS2weEP5atzmkhLA_g",
+        authDomain: "nett-2d68c.firebaseapp.com",
+        projectId: "nett-2d68c",
+        storageBucket: "nett-2d68c.appspot.com",
+        messagingSenderId: "860034619576",
+        appId: "1:860034619576:web:41cf1b9c9e914859b43c4d",
+      };
+
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.firestore();
+    </script>
+
+    <script rel src="/JavaScript/database.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="/html/kjott.html">Tilbake</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="skinkevare">
+      <h1>Skinke</h1>
+      <p class="skinkebeskrivelse"></p>
+      <img class="skinke" src="/img/skinke.jpg" />
+      <button class="skinkekjøp">
+        <a class="skinkepris" href="placeholder.html"></a>
+      </button>
+    </div>
+  </body>
+</html>

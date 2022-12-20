@@ -1,0 +1,26 @@
+.bananvare {
+  background-color: red;
+
+  width: 1000px;
+  text-align: center;
+  margin-left: 300px;
+  height: 550px;
+  align-items: center;
+}
+
+.banan {
+  height: 300px;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.banankjøp {
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 470px;
+  margin-top: 50px;
+}

@@ -1,0 +1,54 @@
+.tittel {
+  color: black;
+  background-color: red;
+  border-bottom: 10px solid red;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+.username {
+  text-align: center;
+  margin-right: 26px;
+}
+
+.email {
+  text-align: center;
+  margin-right: 47px;
+}
+.password {
+  text-align: center;
+  margin-right: -4px;
+}
+
+.login {
+  background-color: red;
+  border-bottom: 10px solid red;
+  border-top: 10px solid red;
+}
+
+.loginbutton {
+  display: block;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 750px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.password2 {
+  margin-right: 42px;
+  text-align: center;
+}
